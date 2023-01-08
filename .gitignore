@@ -1,0 +1,29 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Readability Score/*
+!/Readability Score/task/
+/Readability Score/task/*
+!/Readability Score/task/src/
+!/Readability Score/task/build.gradle
+!/Readability Score/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/Command-line arguments/How to pass ints/out/
+/Topics/Command-line arguments/How to pass ints/out/production/classes/
+/Topics/Command-line arguments/Parameters and their values/out/
+/Topics/Command-line arguments/Parameters and their values/out/production/classes/
+/Topics/Command-line arguments/Theory/out/
+/Topics/Command-line arguments/Theory/out/production/classes/
